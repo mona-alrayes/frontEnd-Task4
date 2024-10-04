@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <title>Medicio</title>
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="navbar mr-1">
+            <div class="container">
+                <a class="navbar-brand text-white fs-6" href="#">Monday - Satrday 8AM to 10PM </a>
+                <a class="navbar-brand text-white fs-6" href="#">Call Us Now +1 5589 55488 55 </a>
+            </div>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <img src="./assets/images/logo.png" alt="logo-medicio" style="width: 120px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active text-uppercase" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#department">Departments</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#">Doctors</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#contact">Contacts</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn text-white">Make an Appoinment</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/images/hero-carousel/hero-carousel-1.jpg" class="d-block w-100" alt="...">
+                        <div class="card text-center carousel-caption d-none d-md-block">
+                            <div class="card-body text-black-50">
+                                <h5 class="card-title fs-3 text-dark text-capitalize">Special title treatment</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur asperiores ipsum modi earum sapiente, tempora veniam voluptas consectetur reprehenderit nostrum aspernatur dolore deleniti error qui voluptatem, quasi non assumenda facilis.</p>
+                                <a href="#" class="btn btn-primary text-capitalize">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/hero-carousel/hero-carousel-2.jpg" class="d-block w-100" alt="...">
+                        <div class="card text-center carousel-caption d-none d-md-block">
+                            <div class="card-body text-black-50">
+                                <h5 class="card-title fs-3 text-dark text-capitalize">Special title treatment</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eveniet ducimus nesciunt nulla ipsa itaque placeat corrupti vel similique assumenda amet sit, sapiente repellat veniam eum nihil reiciendis dolore quam?</p>
+                                <a href="#" class="btn btn-primary text-capitalize">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/images/hero-carousel/hero-carousel-3.jpg" class="d-block w-100" alt="...">
+                        <div class="card text-center carousel-caption d-none d-md-block">
+                            <div class="card-body text-black-50">
+                                <h5 class="card-title fs-3 text-dark text-capitalize">Special title treatment</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta id est animi vero, voluptas magni provident incidunt molestiae! Provident optio repudiandae sit accusamus amet ad incidunt nulla quae ab neque!</p>
+                                <a href="#" class="btn btn-primary text-capitalize">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Pr<span>evio</span>us</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+    </header>
+    <section class="service p-5" id="service">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-center mb-5 mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title pb-3 fs-2">Se<span class="underline">rvi</span>ce</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-center mb-5 mx-auto" style="width: 22rem;">
+                        <div class="card-body">
+                            <div style="height:50px;" class="mb-3 icon mx-auto">
+                                <h1><i class="fa-solid fa-heart-pulse"></i></h1>
+                            </div>
+                            <h5 class="card-title mb-3">Hea<span class="underline">rt He</span>alth</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-center mb-5 mx-auto" style="width: 22rem;">
+                        <div class="card-body">
+                            <div style="height:50px;" class="mb-3 icon mx-auto">
+                                <h1><i class="fa-solid fa-brain"></i></h1>
+                            </div>
+                            <h5 class="card-title mb-3">Bra<span class="underline">in He</span>alth</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-center mb-5 mx-auto" style="width: 22rem;">
+                        <div class="card-body">
+                            <div style="height:50px;" class="mb-3 icon mx-auto">
+                                <h1><i class="fa-solid fa-lungs"></i></h1>
+                            </div>
+                            <h5 class="card-title mb-3">Lun<span class="underline">g He</span>alth</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-center mb-5 mx-auto" style="width: 22rem;">
+                        <div class="card-body">
+                            <div style="height:50px;" class="mb-3 icon mx-auto">
+                                <h1><i class="fa-solid fa-tooth"></i></h1>
+                            </div>
+                            <h5 class="card-title mb-3">Den<span class="underline">tal C</span>are</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-center mb-5 mx-auto" style="width: 22rem;">
+                        <div class="card-body">
+                            <div style="height:50px;" class="mb-3 icon mx-auto">
+                                <h1><i class="fa-solid fa-stethoscope"></i></h1>
+                            </div>
+                            <h5 class="card-title mb-3">Gene<span class="underline">ral H</span>ealth</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card text-center mb-5 mx-auto" style="width: 22rem;">
+                        <div class="card-body">
+                            <div style="height:50px;" class="mb-3 icon mx-auto">
+                                <h1><i class="fa-solid fa-capsules"></i></h1>
+                            </div>
+                            <h5 class="card-title mb-3">Ph<span class="underline">arma</span>cy</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="appointment p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-center m-5 mt-5 mx-auto border-0 bg-transparent">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2 text-uppercase mb-4">Make An <span class="underline">App</span>ointment</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                facere deserunt quos dolores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="your name">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="your email">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="your phone">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <input type="date" class="form-control" id="formGroupExampleInput2"
+                                placeholder="dd/mm/yyyy">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>ٍSelect Department</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="mb-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Doctor</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                placeholder="message (Optional)"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-primary px-5" style="border:none;">Make An
+                            Appointment</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="apartment pb-5" id="department">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12">
+                    <div class="card text-center m-5 mt-5 mx-auto border-0">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2 text-capitalize mb-4">depa<span class="underline">rtm</span>ents</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                facere deserunt quos dolores</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-3">
+                        <!-- Vertical Nav (Tabs) -->
+                        <ul class="nav flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <li class="nav-item p-2" role="presentation">
+                                <a class="nav-link active text-black" id="v-pills-cardiology-tab" data-bs-toggle="pill"
+                                    href="#v-pills-cardiology" role="tab" aria-controls="v-pills-cardiology"
+                                    aria-selected="true">Cardiology</a>
+                            </li>
+                            <li class="nav-item p-2" role="presentation">
+                                <a class="nav-link text-black" id="v-pills-neurology-tab" data-bs-toggle="pill"
+                                    href="#v-pills-neurology" role="tab" aria-controls="v-pills-neurology"
+                                    aria-selected="false">Neurology</a>
+                            </li>
+                            <li class="nav-item p-2" role="presentation">
+                                <a class="nav-link text-black" id="v-pills-hepatology-tab" data-bs-toggle="pill"
+                                    href="#v-pills-hepatology" role="tab" aria-controls="v-pills-hepatology"
+                                    aria-selected="false">Hepatology</a>
+                            </li>
+                            <li class="nav-item p-2" role="presentation">
+                                <a class="nav-link text-black" id="v-pills-pediatrics-tab" data-bs-toggle="pill"
+                                    href="#v-pills-pediatrics" role="tab" aria-controls="v-pills-pediatrics"
+                                    aria-selected="false">Pediatrics</a>
+                            </li>
+                            <li class="nav-item p-2" role="presentation">
+                                <a class="nav-link text-black" id="v-pills-ophthalmology-tab" data-bs-toggle="pill"
+                                    href="#v-pills-ophthalmology" role="tab" aria-controls="v-pills-ophthalmology"
+                                    aria-selected="false">Ophthalmologist</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-9">
+                        <!-- Tab Content -->
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-cardiology" role="tabpanel"
+                                aria-labelledby="v-pills-cardiology-tab">
+                                <div class="card mb-3 w-100 border-0">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Cardiology</h5>
+                                                <p class="card-text text-black-50">This is the content for Cardiology.
+                                                    It includes
+                                                    detailed information on the topic.</p>
+                                                <p class="card-text text-black-50"><small
+                                                        class="text-body-secondary">Last updated 3
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/images/departments-1.jpg" class="img-fluid rounded-end"
+                                                alt="Cardiology Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-neurology" role="tabpanel"
+                                aria-labelledby="v-pills-neurology-tab">
+                                <div class="card mb-3 w-100 border-0">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Neurology</h5>
+                                                <p class="card-text text-black-50">This is the content for Neurology. It
+                                                    includes
+                                                    detailed information on the topic.</p>
+                                                <p class="card-text text-black-50"><small
+                                                        class="text-body-secondary">Last updated 3
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/images/departments-2.jpg" class="img-fluid rounded-end"
+                                                alt="Neurology Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-hepatology" role="tabpanel"
+                                aria-labelledby="v-pills-hepatology-tab">
+                                <div class="card mb-3 w-100 border-0">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Hepatology</h5>
+                                                <p class="card-text text-black-50">This is the content for Hepatology.
+                                                    It includes
+                                                    detailed information on the topic.</p>
+                                                <p class="card-text text-black-50"><small
+                                                        class="text-body-secondary">Last updated 3
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/images/departments-3.jpg" class="img-fluid rounded-end"
+                                                alt="Hepatology Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-pediatrics" role="tabpanel"
+                                aria-labelledby="v-pills-pediatrics-tab">
+                                <div class="card mb-3 w-100 border-0">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Pediatrics</h5>
+                                                <p class="card-text text-black-50">This is the content for Pediatrics.
+                                                    It includes
+                                                    detailed information on the topic.</p>
+                                                <p class="card-text text-black-50"><small
+                                                        class="text-body-secondary">Last updated 3
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/images/departments-4.jpg" class="img-fluid rounded-end"
+                                                alt="Pediatrics Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="v-pills-ophthalmology" role="tabpanel"
+                                aria-labelledby="v-pills-ophthalmology-tab">
+                                <div class="card mb-3 w-100 border-0">
+                                    <div class="row g-0">
+                                        <div class="col-md-8">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Ophthalmologist</h5>
+                                                <p class="card-text text-black-50">This is the content for
+                                                    Ophthalmologist. It
+                                                    includes detailed information on the topic.</p>
+                                                <p class="card-text text-black-50"><small
+                                                        class="text-body-secondary">Last updated 3
+                                                        mins ago</small></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/images/departments-5.jpg" class="img-fluid rounded-end"
+                                                alt="Ophthalmologist Image">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="quetion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-center m-5 mt-5 mx-auto border-0 bg-transparent">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2 text-capitalize mb-4">freqentaly <span class="underline">aske</span>d questions</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                facere deserunt quos dolores</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="card text-center m-5 mt-5 mx-auto border-0 bg-transparent">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        first item's accordion body.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto corporis libero ducimus consequatur voluptas autem aut nulla?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        second item's accordion body. Let's imagine this being filled with some actual
+                                        content.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro odit rem quam qui officiis magni dolores enim dolorem?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is
+                                        intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                        third item's accordion body. Nothing more exciting happening here in terms of
+                                        content, but just filling up the space to make it look, at least at first
+                                        glance, a bit more representative of how this would look in a real-world
+                                        application.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact pb-5" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card text-center m-5 mt-5 mx-auto border-0 bg-transparent">
+                        <div class="card-body">
+                            <h5 class="card-title fs-2 text-capitalize mb-4">co<span class="underline">nta</span>ct</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
+                                facere deserunt quos dolores</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-container mb-5" style="position: relative; padding-bottom: 25%; height: 0; overflow: hidden;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2012.3414478202476!2d36.75855806370696!3d35.13149416653945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2snl!4v1727987594271!5m2!1sar!2snl"
+                width="100%" height="100%" style="border:0; position: absolute; top: 0; left: 0;" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="map"></iframe>
+        </div>
+        <div class="container text-center mr-2">
+            <div class="row">
+                <!-- Left side: Cards with address, phone, and email -->
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <!-- Address Card -->
+                    <div class="card custom-card border-0">
+                        <div class="card-body">
+                            <div class="icon-contact fs-4">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <h5 class="card-title text-capitalize fs-4">Our Address</h5>
+                            <a class="card-text text-decoration-none" href="#map" style="color:#00bcd4">View on Map</a>
+                        </div>
+                    </div>
+        
+                    <!-- Row with Phone and Email cards -->
+                    <div class="row mt-4">
+                        <!-- Phone Number Card -->
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="card custom-card border-0">
+                                <div class="card-body">
+                                    <div class="icon-contact fs-4">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+                                    <h5 class="card-title text-capitalize fs-4">Phone Number</h5>
+                                    <a class="card-text text-decoration-none" href="#" style="color:#00bcd4">Call Us Now</a>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Email Address Card -->
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                            <div class="card custom-card border-0">
+                                <div class="card-body">
+                                    <div class="icon-contact fs-4">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                    <h5 class="card-title text-capitalize fs-4">Email Address</h5>
+                                    <a class="card-text text-decoration-none" href="#" style="color:#00bcd4">Send Email</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+   
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <form class="custom-form">
+                        <div class="row mt-4">
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter your first name" required>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12">
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" placeholder="Enter your email" required>
+                           </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Enter the subject" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Enter your message" rows="5" required></textarea>
+                        </div>
+                        <div class="col-lg-12 d-flex justify-content-center mb-3">
+                            <button type="submit" class="btn btn-primary px-5" style="border:none;">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <footer class="pt-5 pb-4">
+            <div class="container">
+                <div class="row">
+                    <!-- Address Section -->
+                    <div class="col-lg-4 col-md-6 mb-5">
+                        <h3 class="text-muted mb-5">Medicio</h3>
+                        <p class="text-muted">
+                            A108 Adam Street<br>
+                            New York, NY 535022<br>
+                            United States
+                        </p>
+                        <p class="text-muted">
+                            <strong>Phone:</strong> 09369394902<br>
+                            <strong>Email:</strong> info@gmail.com
+                        </p>
+                        <!-- Social Media Icons -->
+                        <div class="d-flex mt-3 mr-footer">
+                            <a href="#" class="me-3 text-dark"><div class="icon-footer fs-6"><i class="fab fa-twitter"></div></i></a>
+                            <a href="#" class="me-3 text-dark"><div class="icon-footer fs-6"><i class="fab fa-facebook-f"></div></i></a>
+                            <a href="#" class="me-3 text-dark"><div class="icon-footer fs-6"><i class="fab fa-linkedin-in"></div></i></a>
+                            <a href="#" class="me-3 text-dark"><div class="icon-footer fs-6"><i class="fab fa-instagram"></i></div></a>
+                        </div>
+                    </div>
+        
+                    <!-- Useful Links -->
+                    <div class="col-lg-2 col-md-6 ">
+                        <h4 class="text-muted mb-4">Useful Links</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none ">Home</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">About Us</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Services</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Terms of Service</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Our Services -->
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="text-muted mb-4">Our Services</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Web Design</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Web Development</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Product Management</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Marketing</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Graphic Design</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Hic Solutaetp -->
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="text-muted mb-4">Hic Solutaetp</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Ipsam</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Laudantium Dolorum</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Tredelas</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Dilecta</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Sit Quas Consectetur</a></li>
+                        </ul>
+                    </div>
+
+                     <!-- Hic Solutaetp -->
+                     <div class="col-lg-2 col-md-6 mb-4">
+                        <h4 class="text-muted mb-4">Nubs Illum</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Ipsam</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Laudantium Dolorum</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Tredelas</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Dilecta</a></li>
+                            <li class="mb-4"><a href="#" class="text-muted text-decoration-none">Sit Quas Consectetur</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Footer Bottom -->
+            <div class="text-center py-3 border-top">
+                <div class="container">
+                    <p class="mb-0 text-muted">
+                        &copy; Copyright <strong>Medicio</strong>. All Rights Reserved
+                    </p>
+                    <p class="mb-0 text-muted">
+                        Designed by <a href="https://bootstrapmade.com/" class="text-decoration-none mr-link-down">BootstrapMade</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+        
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

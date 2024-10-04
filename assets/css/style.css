@@ -1,0 +1,196 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header .navbar{
+    background-color: #00bcd4;
+   
+}
+.navbar-nav .nav-item .nav-link{
+    color:#626262;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color:#00bcd4;
+}
+.btn{
+    background-color: #00bcd4;
+}
+.btn:hover{
+    background-color: #0097a7;
+
+}
+.carousel-inner .carousel-item img{
+    height:88vh;
+    object-fit: cover;
+    filter:brightness(0.7);
+}
+.carousel-item .card  {
+    background-color: #ffffffbd;
+    border-top:5px solid #00bcd4;
+}
+.carousel-item .card .card-body a{
+    border:none;
+}
+.carousel-caption{
+   
+   bottom: 8rem !important;
+      
+}
+.icon{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.219);
+}
+.icon h1{
+    color:#00bcd4;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+.service .card{
+    border:none;
+}
+.service ,.appointment .container .card-text{
+    color:#626262;
+}
+.appointment,.quetion ,.footer{
+    background-color: #edf9fd;
+}
+
+.apartment .container .row .col-md-3 .nav-item :hover{
+    color: #00bcd4 !important;
+    border-right: 3px solid #00bcd4;
+}
+.apartment .container .row .col-md-3 .nav-item{
+    border-right: 1px solid #626262 ;
+}
+
+/* Container styling */
+.mr {
+    margin-top: 50px;
+}
+
+/* Cards and form box-shadow */
+.custom-card, .custom-form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* Padding around form inputs */
+.custom-form .form-control {
+    margin-bottom: 23px;
+}
+
+/* Buttons with custom styling */
+.btn-custom {
+    background-color: #00bcd4;
+    border-color: #00bcd4;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #0097a7;
+    border-color: #0097a7;
+}
+
+/* Icons inside cards with rounded dotted borders */
+.icon-contact {
+    display: inline-block;
+    padding: 12px 15px;
+    border: 3px dotted #00bcd4;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 7px;
+    color: #00bcd4;
+
+}
+
+/* Form and card general styling */
+.card-body, .custom-form {
+    padding: 20px;
+}
+
+/* Card titles styling */
+.card-title {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Ensuring proper spacing between items */
+.row .card, .form-control {
+    margin-bottom: 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 767px) {
+    .custom-form {
+        margin-top: 30px;
+    }
+    .footer .row .col-md-6{
+        text-align:center ;
+    }
+    .mr-footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .mr-1 .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+/* Social Icons Size */
+.social-links a i {
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+/* Footer Links Hover Effect */
+.footer .container .row ul li a:hover {
+    color: #00bcd4 !important;
+}
+
+/* icon for footer */
+.icon-footer {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #626262;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 6px;
+    color: #626262;
+
+}
+.icon-footer:hover{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #00bcd4;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 7px;
+    margin-top: 6px;
+    color: #00bcd4;   
+}
+/* link in the buttom */
+.footer footer .mr-link-down{
+    color: #00bcd4;
+}
+/* link in the buttom */
+.footer footer .mr-link-down:hover{
+    color:#0097a7;
+}
+
+.underline{
+    padding-bottom: 10px;
+  
+    border-bottom: 3px solid #00bcd4;
+}
