@@ -26,6 +26,16 @@ header .navbar{
     object-fit: cover;
     filter:brightness(0.7);
 }
+
+.carousel-indicators button {
+    width: 13px !important; 
+    height: 13px !important; 
+    border-radius: 50% !important; /* Make it circular */
+   
+}
+.carousel-indicators .active{
+    background-color:#00bcd4 !important ;
+}
 .carousel-item .card  {
     background-color: #ffffffbd;
     border-top:5px solid #00bcd4;
@@ -33,11 +43,8 @@ header .navbar{
 .carousel-item .card .card-body a{
     border:none;
 }
-.carousel-caption{
-   
-   bottom: 8rem !important;
-      
-}
+
+
 .icon{
     width:60px;
     height:60px;
@@ -142,7 +149,7 @@ header .navbar{
     .mr-1 .container{
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; 
     }
    
 }
@@ -191,6 +198,5 @@ header .navbar{
 
 .underline{
     padding-bottom: 10px;
-  
     border-bottom: 3px solid #00bcd4;
 }
